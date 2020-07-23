@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:paddingRight="5dp"
+    android:layout_marginTop="32dp"
+    android:paddingBottom="5dp"
+    tools:context=".MainActivity">
+
+
+
+
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="22dp"
+           android:text="EMPTS"
+           android:textColor="#FDFCFC"
+           android:textSize="34dp"
+           android:textStyle="bold"/>
+       <TextView
+           android:background="#ffff"
+           android:id="@+id/login_error"
+           android:visibility="invisible"
+           android:padding="10dp"
+           android:layout_width="222dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="22dp"
+           android:textColor="#DF1818"
+           android:textSize="16dp"
+           android:textStyle="bold"
+
+           />
+
+        <EditText
+
+            android:id="@+id/empcode"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/ic_nputshape"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:drawablePadding="7dp"
+            android:ems="10"
+            android:hint="Employee Number"
+            android:inputType="text"
+            android:paddingLeft="12dp"
+            android:textColor="#000"
+            android:textColorHint="#3C3838" />
+
+       <EditText
+           android:id="@+id/password"
+           android:layout_width="250dp"
+           android:layout_gravity="center"
+           android:background="@drawable/ic_nputshape"
+           android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+           android:drawablePadding="7dp"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="Password"
+           android:textColor="#000"
+           android:inputType="textPassword"
+           android:paddingLeft="12dp"
+           android:textColorHint="#3C3838" />
+
+       <Button
+           android:id="@+id/login_button"
+           android:layout_width="250dp"
+           android:layout_gravity="center"
+           android:layout_height="50dp"
+           android:layout_marginTop="15dp"
+           android:background="@drawable/button_shape"
+           android:text="Login"
+           android:textAllCaps="false"
+           android:textColor="#ffff"
+           android:textSize="27dp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/fprgotpassText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="28dp"
+           android:text="Forgot Password? Click here"
+           android:textColor="#e1e1e1"
+           android:textSize="19dp"
+           android:textStyle="bold">
+
+       </TextView>
+
+
+
+</LinearLayout>

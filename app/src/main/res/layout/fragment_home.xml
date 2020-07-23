@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="#5366D3"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="4dp"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/num_request"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:textSize="23dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Employee Working Zone Reporter"
+            />
+            <Button
+                android:id="@+id/btnActivate"
+                android:layout_width="187dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_shape"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="#ffff"
+                android:textSize="27dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/cancel_all"
+                android:layout_marginTop="27dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginBottom="23dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/empdaysN"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

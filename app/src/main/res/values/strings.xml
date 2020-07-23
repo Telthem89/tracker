@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Empts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
+    <string name="firebase_path">location</string>
+</resources>
